@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}"
+    </head>
+    <body>
+        <div class="header">
+            <h2>Inventory Management System</h2>
+        </div>
+        <div class="container right">
+        <form method="POST" action="/dashboard">
+            <h5>Employee Id</h5>
+            <input type="text" name="id1" placeholder="Enter Employee Id">
+            <h5>Password</h5>
+            <input type="text" name="pwd" placeholder="Enter Password">
+            <button type="submit" >Login</button>
+        </form>
+    </div>
+    </body>
+    </html>
